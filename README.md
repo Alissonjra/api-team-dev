@@ -1,28 +1,55 @@
-# Adonis API application
+<img src="/.github/logo.png" width="300" />
 
-This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
+# API Team dev 
+> Manage team 
 
-1. Bodyparser
-2. Authentication
-3. CORS
-4. Lucid ORM
-5. Migrations and seeds
+## Database Diagram
 
-## Setup
+<img src="/.github/diagram.png"  />
 
-Use the adonis command to install the blueprint
+# :rocket: Features
+* Create user,project,team,role and permission.
+* Invite user for the team.
+* Create permission for a user in the team.
+* Create role  for a user in the team.
 
-```bash
-adonis new yardstick --api-only
+# :construction_worker: Installation
+
+Clone this repo:
+
+```
+https://github.com/Alissonjra/api-team-dev
 ```
 
-or manually clone the repo and then run `npm install`.
+Run the following script in order to execute the application in development mode:
 
+```bash 
+npm install 
+```
 
-### Migrations
+# :runner: Getting Started
+
+Initialize your database 
+
+```bash
+POSTGRESQL 
+```
 
 Run the following command to run startup migrations.
 
 ```js
 adonis migration:run
 ```
+
+Start the application:
+
+```bash
+npm start
+```
+
+# :hammer: Technologies
+
+In this project i used this technologies:
+
+- [AdonisJS](https://legacy.adonisjs.com/)
+- [Eslint](https://eslint.org/)
